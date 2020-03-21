@@ -1,0 +1,26 @@
+$color-primary: gray;
+
+body {
+    margin: 0px;
+}
+
+.home{
+
+    .home__header{
+        grid-area: header;
+        grid-template-rows: 3;
+        height: 50px;
+        background-color: $color-primary;
+        text-align: center;
+
+        h1{
+            display: inline-block;
+            vertical-align: middle;
+            margin: 0px;
+        }
+        
+    }
+}
+
+
+

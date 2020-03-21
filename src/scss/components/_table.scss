@@ -1,0 +1,15 @@
+$black: black;
+
+.home__content__table {
+    grid-area: list;
+    border-collapse: collapse;
+    border: 1px solid $black;
+
+    th{
+        border: 1px solid $black;
+    }
+
+    td{
+        border: 1px solid $black;
+    }
+}
